@@ -170,48 +170,38 @@ export default function Home() {
           </div>
 
           <div className="relative z-10 flex items-start">
-            <div className="w-full">
-              <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-2xl shadow-black/30 backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_25px_60px_rgba(0,0,0,0.45)]">
-                <div className="rounded-[1.5rem] border border-white/10 bg-slate-900 p-6">
-                  <div className="flex items-center justify-between border-b border-white/10 pb-4">
-                    <div>
-                      <div className="text-sm uppercase tracking-[0.25em] text-slate-400">
-                        Project Snapshot
-                      </div>
-                      <div className="mt-2 text-xl font-semibold text-white">
-                        Coordination Support
-                      </div>
+            <div className="w-full rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-2xl shadow-black/30 backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_25px_60px_rgba(0,0,0,0.45)]">
+              <div className="rounded-[1.5rem] border border-white/10 bg-slate-900 p-6">
+                <div className="flex items-center justify-between border-b border-white/10 pb-4">
+                  <div>
+                    <div className="text-sm uppercase tracking-[0.25em] text-slate-400">
+                      Project Snapshot
                     </div>
-                    <div className="rounded-full border border-white/10 px-3 py-1 text-xs text-slate-300">
-                      Active Workflow
+                    <div className="mt-2 text-xl font-semibold text-white">
+                      Coordination Support
                     </div>
                   </div>
-
-                  <div className="mt-6 space-y-4">
-                    {[
-                      ["Model Review", "Structured model oversight and issue visibility"],
-                      ["Clash Tracking", "Clear reporting and follow-through across teams"],
-                      ["BIM Standards", "Consistent setup and coordination expectations"],
-                      ["Project Delivery", "Support for better decisions before field impact"],
-                    ].map(([title, desc]) => (
-                      <div
-                        key={title}
-                        className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 transition-all duration-300 hover:bg-white/[0.06]"
-                      >
-                        <div className="text-sm font-semibold text-white">{title}</div>
-                        <div className="mt-1 text-sm leading-6 text-slate-300">{desc}</div>
-                      </div>
-                    ))}
+                  <div className="rounded-full border border-white/10 px-3 py-1 text-xs text-slate-300">
+                    Active Workflow
                   </div>
                 </div>
-              </div>
 
-              <div className="mt-22 flex justify-center">
-                <img
-                  src="/logo.png"
-                  alt="Ironclad Logo"
-                  className="h-134 w-auto opacity-90"
-                />
+                <div className="mt-6 space-y-4">
+                  {[
+                    ["Model Review", "Structured model oversight and issue visibility"],
+                    ["Clash Tracking", "Clear reporting and follow-through across teams"],
+                    ["BIM Standards", "Consistent setup and coordination expectations"],
+                    ["Project Delivery", "Support for better decisions before field impact"],
+                  ].map(([title, desc]) => (
+                    <div
+                      key={title}
+                      className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 transition-all duration-300 hover:bg-white/[0.06]"
+                    >
+                      <div className="text-sm font-semibold text-white">{title}</div>
+                      <div className="mt-1 text-sm leading-6 text-slate-300">{desc}</div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -376,6 +366,14 @@ export default function Home() {
               >
                 Email Ironclad BIM Solutions
               </a>
+
+              <div className="mt-10 flex justify-center">
+                <img
+                  src="/logo.png"
+                  alt="Ironclad Logo"
+                  className="h-40 w-auto opacity-95"
+                />
+              </div>
             </div>
           </div>
         </div>
