@@ -365,11 +365,11 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 mt-10 mr-8">
                   <img
                     src="/logo.png"
                     alt="Ironclad Logo"
-                    className="h-20 w-auto opacity-90"
+                    className="h-32 w-auto opacity-90"
                   />
                 </div>
               </div>
