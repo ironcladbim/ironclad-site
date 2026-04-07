@@ -332,31 +332,45 @@ export default function Home() {
             </div>
 
             <div className="rounded-[1.5rem] border border-white/10 bg-slate-950/70 p-6 backdrop-blur">
-              <div className="space-y-4 text-sm text-slate-300">
-                <div>
-                  <div className="text-xs uppercase tracking-[0.25em] text-slate-500">Email</div>
-                  <a
-                    href="mailto:kris@ironcladbimsolutions.com"
-                    className="mt-2 block text-base text-white hover:underline"
-                  >
-                    kris@ironcladbimsolutions.com
-                  </a>
+              <div className="flex items-start justify-between gap-6">
+                <div className="space-y-4 text-sm text-slate-300">
+                  <div>
+                    <div className="text-xs uppercase tracking-[0.25em] text-slate-500">
+                      Email
+                    </div>
+                    <a
+                      href="mailto:kris@ironcladbimsolutions.com"
+                      className="mt-2 block text-base text-white hover:underline"
+                    >
+                      kris@ironcladbimsolutions.com
+                    </a>
+                  </div>
+
+                  <div>
+                    <div className="text-xs uppercase tracking-[0.25em] text-slate-500">
+                      Website
+                    </div>
+                    <div className="mt-2 text-base text-white">
+                      ironcladbimsolutions.com
+                    </div>
+                  </div>
+
+                  <div>
+                    <div className="text-xs uppercase tracking-[0.25em] text-slate-500">
+                      Availability
+                    </div>
+                    <div className="mt-2 text-base text-white">
+                      Open to project-based and ongoing BIM support
+                    </div>
+                  </div>
                 </div>
 
-                <div>
-                  <div className="text-xs uppercase tracking-[0.25em] text-slate-500">
-                    Website
-                  </div>
-                  <div className="mt-2 text-base text-white">ironcladbimsolutions.com</div>
-                </div>
-
-                <div>
-                  <div className="text-xs uppercase tracking-[0.25em] text-slate-500">
-                    Availability
-                  </div>
-                  <div className="mt-2 text-base text-white">
-                    Open to project-based and ongoing BIM support
-                  </div>
+                <div className="flex-shrink-0">
+                  <img
+                    src="/logo.png"
+                    alt="Ironclad Logo"
+                    className="h-20 w-auto opacity-90"
+                  />
                 </div>
               </div>
 
@@ -366,14 +380,6 @@ export default function Home() {
               >
                 Email Ironclad BIM Solutions
               </a>
-
-              <div className="mt-10 flex justify-center">
-                <img
-                  src="/logo.png"
-                  alt="Ironclad Logo"
-                  className="h-40 w-auto opacity-95"
-                />
-              </div>
             </div>
           </div>
         </div>
