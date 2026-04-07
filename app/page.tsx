@@ -206,11 +206,11 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="mt-6 flex justify-end pr-2">
+              <div className="mt-16 flex justify-center">
                 <img
                   src="/logo.png"
                   alt="Ironclad Logo"
-                  className="h-24 w-auto opacity-90"
+                  className="h-64 w-auto opacity-90"
                 />
               </div>
             </div>
