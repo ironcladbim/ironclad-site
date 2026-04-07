@@ -346,14 +346,6 @@ export default function Home() {
                     </a>
                   </div>
 
-                  <div>
-                    <div className="text-xs uppercase tracking-[0.25em] text-slate-500">
-                      Website
-                    </div>
-                    <div className="mt-2 text-base text-white">
-                      ironcladbimsolutions.com
-                    </div>
-                  </div>
 
                   <div>
                     <div className="text-xs uppercase tracking-[0.25em] text-slate-500">
@@ -365,7 +357,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="flex-shrink-0 mt-10 mr-8">
+                <div className="flex-shrink-0 mt-10 mr-30">
                   <img
                     src="/logo.png"
                     alt="Ironclad Logo"
