@@ -380,7 +380,7 @@ export default function Home() {
                   <img
                     src="/logo.png"
                     alt="Ironclad Logo"
-                    className="h-24 w-auto opacity-90 sm:h-28"
+                    className="h-34 w-auto opacity-90 sm:h-40"
                   />
                 </div>
               </div>
