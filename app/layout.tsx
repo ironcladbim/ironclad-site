@@ -16,7 +16,31 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "BIM Coordination Services | Ironclad BIM Solutions",
   description:
-    "Ironclad BIM Solutions provides BIM coordination, clash detection, and VDC consulting for construction projects. Serving contractors, developers, and project teams.",
+    "Ironclad BIM Solutions provides BIM coordination, clash detection, and VDC consulting for contractors, developers, and project teams.",
+  openGraph: {
+    title: "Ironclad BIM Solutions",
+    description:
+      "BIM coordination, clash detection, and VDC consulting for construction teams.",
+    url: "https://ironcladbimsolutions.com",
+    siteName: "Ironclad BIM Solutions",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Ironclad BIM Solutions social preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ironclad BIM Solutions",
+    description:
+      "BIM coordination, clash detection, and VDC consulting for construction teams.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
