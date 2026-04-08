@@ -140,7 +140,12 @@ export default function Home() {
             <div className="mt-2 text-xl font-semibold">Coordination Support</div>
 
             <div className="mt-6 space-y-3">
-              {["Model Review", "Clash Tracking", "BIM Standards", "Project Delivery"].map((item) => (
+             {[
+  "Structured model review and coordination oversight",
+  "Clash detection with clear issue tracking and follow-up",
+  "MEP coordination across trades and disciplines",
+  "Constructability-focused problem solving before field impact",
+].map((item) => (
                 <div key={item} className="rounded-xl border p-3 text-sm">
                   {item}
                 </div>
