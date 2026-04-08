@@ -14,8 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ironclad BIM Solutions",
-  description: "BIM coordination, model management, clash detection, and VDC consulting support.",
+  title: "BIM Coordination Services | Ironclad BIM Solutions",
+  description:
+    "Ironclad BIM Solutions provides BIM coordination, clash detection, and VDC consulting for construction projects. Serving contractors, developers, and project teams.",
 };
 
 export default function RootLayout({
